@@ -22,7 +22,7 @@ fi
 if ! [ -d "/share/homegear" ]
 then
 	mkdir /share/homegear
-	echto "create share dir"
+	echo "create share dir"
 fi
 
 if ! [ -d "/share/homegear/lib" ]
